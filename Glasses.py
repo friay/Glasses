@@ -200,10 +200,10 @@ class Dino_vit(nn.Module):
     def __init__(self):
         super().__init__()
         self.backbone = torch.hub.load(
-                        repo_or_dir=r"D:\file\Charon\dinov3",
+                        repo_or_dir=r"Charon\dinov3",
                         model="dinov3_vitb16",
                         source="local",
-                        weights=r"D:\file\Charon\pretrain\dinov3_vitb16_pretrain_lvd1689m-73cec8be.pth",
+                        weights=r"Charon\pretrain\dinov3_vitb16_pretrain.pth",
                         pretrained=True,
                     )
 
