@@ -1,6 +1,5 @@
 # Glasses: Adapter-Enhanced DINOv3 with Boundary-Aware Multi-Scale Representations for Medical Image Segmentation
 
-This repository contains the code for the medical image segmentation framework **Glasses**, which uses a largely frozen DINOv3 backbone enhanced with boundary-aware multi-scale representations.
 
 ## Key Results on Synapse Dataset
 
