@@ -1,7 +1,7 @@
 # Glasses: Adapter-Enhanced DINOv3 with Boundary-Aware Multi-Scale Representations for Medical Image Segmentation
 
 
-## Key Results on Synapse Dataset
+## Results on Synapse Dataset
 
 | Method | Dice↑ | HD↓ | Aorta | Gallbladder | Kidney(L) | Kidney(R) | Liver | Pancreas | Spleen | Stomach |
 |--------|-------|-----|-------|-------------|-----------|-----------|-------|----------|--------|---------|
