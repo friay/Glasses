@@ -1,1 +1,22 @@
-Hello
+# Glasses: Adapter-Enhanced DINOv3 with Boundary-Aware Multi-Scale Representations for Medical Image Segmentation
+
+This repository contains the code for the medical image segmentation framework **Glasses**, which uses a largely frozen DINOv3 backbone enhanced with boundary-aware multi-scale representations.
+
+## Key Results on Synapse Dataset
+
+| Method | Dice↑ | HD↓ | Aorta | Gallbladder | Kidney(L) | Kidney(R) | Liver | Pancreas | Spleen | Stomach |
+|--------|-------|-----|-------|-------------|-----------|-----------|-------|----------|--------|---------|
+| U-Net | 76.85 | 39.70 | 89.07 | 69.72 | 77.77 | 68.60 | 93.43 | 53.98 | 86.67 | 75.58 |
+| nnUNet | 79.40 | 14.57 | 90.24 | 44.23 | 87.30 | 87.94 | 90.10 | 70.10 | 85.45 | 79.82 |
+| TransUNet | 77.48 | 31.69 | 87.23 | 63.13 | 81.87 | 77.02 | 94.08 | 55.86 | 85.08 | 75.62 |
+| Swin-Unet | 79.13 | 21.55 | 85.47 | 66.53 | 83.28 | 79.61 | 94.29 | 56.58 | 90.66 | 76.60 |
+| Mamba-Unet | 80.58 | 21.95 | 87.23 | 68.25 | 84.66 | 80.41 | 94.03 | 58.92 | 90.12 | 81.05 |
+| HiFormer | 80.39 | 14.70 | 86.21 | 65.69 | 85.23 | 79.77 | 94.61 | 59.52 | 90.99 | 81.08 |
+| MISSFormer | 81.96 | 18.20 | 86.99 | 68.65 | 85.21 | 82.00 | 94.41 | 65.67 | 91.92 | 80.81 |
+| Effformer | 80.79 | 17.00 | 85.81 | 66.89 | 84.10 | 81.81 | 94.80 | 62.25 | 91.05 | 79.58 |
+| DAE-Former | 82.63 | 16.39 | 87.84 | 71.65 | 87.66 | 82.39 | 95.08 | 63.93 | 91.82 | 80.77 |
+| GLoG-GSUnet | 83.36 | 23.02 | 88.43 | 73.20 | 84.50 | 80.98 | 95.14 | 71.02 | 91.51 | 82.10 |
+| CASTformer | 82.55 | 22.73 | 89.05 | 67.48 | 86.05 | 82.17 | 95.61 | 67.49 | 91.00 | 81.55 |
+| PVT-CASCADE | 81.06 | 20.23 | 83.01 | 70.59 | 82.23 | 80.37 | 94.08 | 64.43 | 90.10 | 83.69 |
+| Rskd | 82.33 | 17.21 | 87.11 | 68.56 | 86.68 | 84.54 | 93.51 | 65.40 | 90.06 | 82.81 |
+| **Ours** | **83.52** | **12.28** | 88.34 | 70.59 | 88.38 | 86.24 | 95.12 | 63.25 | 91.66 | 84.60 |
