@@ -1,5 +1,5 @@
-# Glasses: Adapter-Enhanced DINOv3 with Boundary-Aware Multi-Scale Representations for Medical Image Segmentation
-
+# Glasses
+Glasses: Adapter-Enhanced DINOv3 with Boundary-Aware Multi-Scale Representations for Medical Image Segmentation
 
 ## Results on Synapse Dataset
 
