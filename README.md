@@ -1,8 +1,6 @@
 # Glasses
 Glasses: Adapter-Enhanced DINOv3 with Boundary-Aware Multi-Scale Representations for Medical Image Segmentation
 
-> [!IMPORTANT]
-> We present Glasses, a structure-enhanced adaptation framework for medical image segmentation built upon a largely frozen DINOv3 backbone. By introducing a Multi-Scale Deformable Attention Adapter, Glasses augments pre-trained Transformer tokens with convolutional structural priors, enabling improved modeling of anatomical details while preserving global semantic representations. In parallel, an independent Edge-Aware Convolutional Encoder provides boundary-enriched multi-scale features that complement the adapter-enhanced Transformer representations during decoding, leading to more precise and spatially consistent segmentation results.
 
 ![](src/fig1.png)
 
